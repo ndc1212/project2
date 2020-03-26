@@ -1,0 +1,124 @@
+E:\Cong Viec\My Project\Schedule\ScheduleApp\bin\Debug\ScheduleApp.exe.config
+E:\Cong Viec\My Project\Schedule\ScheduleApp\bin\Debug\ScheduleApp.exe
+E:\Cong Viec\My Project\Schedule\ScheduleApp\bin\Debug\ScheduleApp.pdb
+E:\Cong Viec\My Project\Schedule\ScheduleApp\bin\Debug\EntityFramework.dll
+E:\Cong Viec\My Project\Schedule\ScheduleApp\bin\Debug\EntityFramework.SqlServer.dll
+E:\Cong Viec\My Project\Schedule\ScheduleApp\bin\Debug\EntityFramework.xml
+E:\Cong Viec\My Project\Schedule\ScheduleApp\bin\Debug\EntityFramework.SqlServer.xml
+E:\Cong Viec\My Project\Schedule\ScheduleApp\obj\Debug\ScheduleApp.csprojAssemblyReference.cache
+E:\Cong Viec\My Project\Schedule\ScheduleApp\obj\Debug\ScheduleApp.Form1.resources
+E:\Cong Viec\My Project\Schedule\ScheduleApp\obj\Debug\ScheduleApp.Properties.Resources.resources
+E:\Cong Viec\My Project\Schedule\ScheduleApp\obj\Debug\ScheduleApp.csproj.GenerateResource.cache
+E:\Cong Viec\My Project\Schedule\ScheduleApp\obj\Debug\ScheduleApp.csproj.CoreCompileInputs.cache
+E:\Cong Viec\My Project\Schedule\ScheduleApp\obj\Debug\ScheduleApp.csproj.CopyComplete
+E:\Cong Viec\My Project\Schedule\ScheduleApp\obj\Debug\ScheduleApp.exe
+E:\Cong Viec\My Project\Schedule\ScheduleApp\obj\Debug\ScheduleApp.pdb
+E:\Cong Viec\My Project\Schedule\ScheduleApp\obj\Debug\ScheduleApp.frmProgram.resources
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\bin\Debug\ScheduleApp.exe.config
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\bin\Debug\ScheduleApp.exe
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\bin\Debug\ScheduleApp.pdb
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\bin\Debug\EntityFramework.dll
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\bin\Debug\EntityFramework.xml
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\obj\Debug\ScheduleApp.fDangnhap.resources
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\obj\Debug\ScheduleApp.Form1.resources
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\obj\Debug\ScheduleApp.frmProgram.resources
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\obj\Debug\ScheduleApp.Properties.Resources.resources
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\obj\Debug\ScheduleApp.csproj.GenerateResource.cache
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\obj\Debug\ScheduleApp.csproj.CopyComplete
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\obj\Debug\ScheduleApp.exe
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\obj\Debug\ScheduleApp.pdb
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\obj\Debug\ScheduleApp.fConfig.resources
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\obj\Debug\ScheduleApp.csprojAssemblyReference.cache
+D:\Projects\Websites\MVC4\Schedule\ScheduleApp\obj\Debug\ScheduleApp.fMain.resources
+E:\Cong Viec\My Project\Schedule\ScheduleApp\obj\Debug\ScheduleApp.fConfig.resources
+E:\Cong Viec\My Project\Schedule\ScheduleApp\obj\Debug\ScheduleApp.fDangnhap.resources
+E:\Cong Viec\My Project\Schedule\ScheduleApp\obj\Debug\ScheduleApp.fMain.resources
+E:\Cong Viec\My Project\Schedule\ScheduleApp\obj\Debug\ScheduleApp.fMonHoc.resources
+E:\Cong Viec\My Project\Schedule\ScheduleApp\bin\Debug\ControlzEx.dll
+E:\Cong Viec\My Project\Schedule\ScheduleApp\bin\Debug\Microsoft.Xaml.Behaviors.dll
+E:\Cong Viec\My Project\Schedule\ScheduleApp\bin\Debug\ControlzEx.pdb
+E:\Cong Viec\My Project\Schedule\ScheduleApp\bin\Debug\ControlzEx.xml
+E:\Cong Viec\My Project\Schedule\ScheduleApp\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+E:\Cong Viec\My Project\Schedule\ScheduleApp\bin\Debug\Microsoft.Xaml.Behaviors.xml
+E:\Cong Viec\My Project\Schedule\ScheduleApp\bin\Debug\System.Windows.Forms.Ribbon.dll
+E:\Cong Viec\My Project\Schedule\ScheduleApp\obj\Debug\ScheduleApp.UserControls.ucSubjects.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\ScheduleApp.exe.config
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\ScheduleApp.exe
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\ScheduleApp.pdb
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\ControlzEx.dll
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\EntityFramework.dll
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\System.Windows.Forms.Ribbon.dll
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\ControlzEx.pdb
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\ControlzEx.xml
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\EntityFramework.xml
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.fConfig.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.fDangnhap.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.fMain.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.fMonHoc.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.Form1.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.frmProgram.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.Properties.Resources.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.ucSubjects.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uUsers.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.csproj.GenerateResource.cache
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.csproj.CopyComplete
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.exe
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.pdb
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uChuongtrinhDT.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uLop.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uSessions.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uClassroom.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uGiangvien.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uSinhvien.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uMonhocs.resources
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\AdvancedDataGridView.dll
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\AdvancedDataGridView.xml
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\fr\AdvancedDataGridView.resources.dll
+D:\Projects\Websites\MVC4\Schedule\18022020\ScheduleApp\bin\Debug\ru\AdvancedDataGridView.resources.dll
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\ScheduleApp.exe.config
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\ScheduleApp.exe
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\ScheduleApp.pdb
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\AdvancedDataGridView.dll
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\ControlzEx.dll
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\System.Windows.Forms.Ribbon.dll
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\AdvancedDataGridView.xml
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\ControlzEx.pdb
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\ControlzEx.xml
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\fr\AdvancedDataGridView.resources.dll
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\bin\Debug\ru\AdvancedDataGridView.resources.dll
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.fConfig.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.fDangnhap.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.fMain.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.fMonHoc.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.Form1.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.frmProgram.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.Properties.Resources.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uChuongtrinhDT.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uClassroom.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.ucSubjects.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uGiangvien.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uLop.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uMonhocs.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uSessions.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uSinhvien.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.UserControls.uUsers.resources
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.csproj.CopyComplete
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.exe
+C:\Users\ASUS\Desktop\22032020\ScheduleApp\obj\Debug\ScheduleApp.pdb

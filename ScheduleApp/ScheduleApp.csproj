@@ -1,0 +1,929 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{466F0677-6428-436E-A8E3-2853EA22F0DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ScheduleApp</RootNamespace>
+    <AssemblyName>ScheduleApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdvancedDataGridView, Version=0.1.0.10, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\ADGV.0.1.0.10\lib\net40\AdvancedDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="ControlzEx, Version=4.0.0.0, Culture=neutral, PublicKeyToken=69f1c32f803d307e, processorArchitecture=MSIL">
+      <HintPath>packages\ControlzEx.4.2.0\lib\net45\ControlzEx.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Xaml.Behaviors.Wpf.1.1.3\lib\net45\Microsoft.Xaml.Behaviors.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.Ribbon, Version=2.0.0.0, Culture=neutral, PublicKeyToken=928736e248aa81f9, processorArchitecture=MSIL">
+      <HintPath>packages\RibbonWinForms.5.0.1.1\lib\net45\System.Windows.Forms.Ribbon.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CollectionStatu.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CollectionStatus1.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Common.cs" />
+    <Compile Include="education20191011_2019_11_13_23h18DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>education20191011_2019_11_13_23h18DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fConfig.Designer.cs">
+      <DependentUpon>fConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDangnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDangnhap.Designer.cs">
+      <DependentUpon>fDangnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMain.Designer.cs">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMonHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMonHoc.Designer.cs">
+      <DependentUpon>fMonHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProgram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProgram.Designer.cs">
+      <DependentUpon>frmProgram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oauth_access_token.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="oauth_client_details.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StudentDocument.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="student_admission_infomation.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_1config.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_academic_title.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_activity_log.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_administrative_unit.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_behavior_mark_classification_standard.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_behavior_mark_criteria.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_budget_distribution.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_building.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_calendar_event.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_calendar_event_attachment.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_calendar_event_attendee.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_calendar_event_car.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_calendar_event_priority.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_certificate.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_civil_servant_category.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_civil_servant_category_grade.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_civil_servant_grade.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_classification.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_country.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_course_hour.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_course_subject.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_course_subject_config.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_course_subject_timetable.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_course_year.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_criteria_search_student.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_criteria_search_student_except_subject.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_decision.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_degree_student.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_department.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_discipline.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_discount_tuition_fee.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_discount_tuition_fee_item.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_education_degree.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_education_level.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_education_program.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_education_program_tuition_fee.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_education_type.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_education_voucher.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_education_voucher_detail.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_enrollment_class.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_equivalent_subject.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_ethnics.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_exam.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_exam_date.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_exam_hour.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_exam_register_period.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_exam_room_period.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_exam_skill.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_exam_status.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_exam_type.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_expectation_register.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_fee_config_item.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_fee_item.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_fee_item_detail.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_file_description.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_global_property.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_graduation_period.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_group_subject_program.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_inventory_item.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_knowledge_block.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_knowledge_program.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_labour_agreement_type.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_learning_skill.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_location.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_mark_type.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_organization.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_organization_user.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_overtime_type.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_payroll_period.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_person.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_person_address.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_position.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_position_staff.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_position_title.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_prerequisite_subject.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_profession.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_program_subject.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_receive_pay_able.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_receive_pay_able_detail.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_register_period_time_config.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_reg_student_course_subject.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_reg_student_subject.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_religion.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_reward.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_reward_decree.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_role.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_room.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_salary_config.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_salary_config_item.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_salary_increment_type.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_salary_item.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_scholarship_condition.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_scholarship_fund.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_scholarship_fund_type.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_school_fee_config.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_semester.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_semester_exam_period.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_semester_register_period.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_semester_subject.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_semester_subject_exam.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_semester_subject_exam_course_subject.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_semester_subject_exam_date.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_semester_subject_exam_hour.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_semester_subject_exam_hour_room.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_semester_subject_exam_room.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_semester_subject_learning_skill.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_shift_work.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_shift_work_time_period.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_shool_year.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_social_class.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_social_priority.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_speciality.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_speciality_program.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_specialty_admissions_map.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_special_point.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_staff.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_staff_allowance_history.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_staff_civil_servant_grade.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_staff_disciplinary_history.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_staff_education_history.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_staff_family_relationship.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_staff_labour_agreement.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_staff_labour_agreement_attachment.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_staff_reward_history.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_staff_salary_history.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_staff_salary_property.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_staff_travelling_history.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_staff_work_schedule.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_status.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_behavior_criteria_mark.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_call_roll.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_candidate_profile.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_certificate.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_code_key.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_course_subject.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_course_subject_cancel_fee.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_course_subject_edited.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_course_subject_history.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_decision.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_decision_type.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_discipline.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_education_program.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_exam_group.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_expectation_register.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_graduate.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_graduate_conditional.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_group.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_mark.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_not_complete_fee_semester.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_object.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_object_policy.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_object_student.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_object_student_semester.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_other_fee.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_private_document.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_process_assessment_point.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_register_change.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_research.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_reward.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_reward_condition.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_scholarship_history.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_scholarship_stock.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_scholarship_stock_detail.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_school_year_summary_mark.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_semester_behavior_mark.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_semester_reward_scholarship.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_semester_subject_exam.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_semester_subject_exam_room.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_semester_summary.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_semester_summary_mark.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_student_private_document.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_study_alert_level.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_subject_mark.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_summary_mark.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_tuition_fee_calculate.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_student_tuition_fee_calculate_detail.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_study_alert_condition.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_study_alert_condition_certificate.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_study_alert_condition_level.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_study_alert_condition_student_object.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_study_alert_level.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_study_alert_running.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_subject.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_subject_education_level_type.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_subject_exam.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_subject_learning_skill.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_testBag_create_time.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_test_bag.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_timesheet.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_timesheet_detail.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_timetable_detail.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_training_base.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_training_base_semester_subject.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_training_base_semester_subject_exam.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_user.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_user_group.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_user_trainning_base.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_voucher_detail_recieve_pay_able_link.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_voucher_recieve_pay_able.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_working_status.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl__student_student_group.cs">
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TLU_SAMS.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TLU_SAMS.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TLU_SAMS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TLU_SAMS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TLU_SAMS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TLU_SAMS.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\uChuongtrinhDT.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\uChuongtrinhDT.Designer.cs">
+      <DependentUpon>uChuongtrinhDT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\uClassroom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\uClassroom.Designer.cs">
+      <DependentUpon>uClassroom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucSubjects.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucSubjects.Designer.cs">
+      <DependentUpon>ucSubjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\uGiangvien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\uGiangvien.Designer.cs">
+      <DependentUpon>uGiangvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\uLop.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\uLop.Designer.cs">
+      <DependentUpon>uLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\uMonhocs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\uMonhocs.Designer.cs">
+      <DependentUpon>uMonhocs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\uSessions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\uSessions.Designer.cs">
+      <DependentUpon>uSessions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\uSinhvien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\uSinhvien.Designer.cs">
+      <DependentUpon>uSinhvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\uUsers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\uUsers.Designer.cs">
+      <DependentUpon>uUsers.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="fConfig.resx">
+      <DependentUpon>fConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDangnhap.resx">
+      <DependentUpon>fDangnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMain.resx">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMonHoc.resx">
+      <DependentUpon>fMonHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProgram.resx">
+      <DependentUpon>frmProgram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UserControls\uChuongtrinhDT.resx">
+      <DependentUpon>uChuongtrinhDT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\uClassroom.resx">
+      <DependentUpon>uClassroom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSubjects.resx">
+      <DependentUpon>ucSubjects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\uGiangvien.resx">
+      <DependentUpon>uGiangvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\uLop.resx">
+      <DependentUpon>uLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\uMonhocs.resx">
+      <DependentUpon>uMonhocs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\uSessions.resx">
+      <DependentUpon>uSessions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\uSinhvien.resx">
+      <DependentUpon>uSinhvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\uUsers.resx">
+      <DependentUpon>uUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="education20191011_2019_11_13_23h18DataSet.xsc">
+      <DependentUpon>education20191011_2019_11_13_23h18DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="education20191011_2019_11_13_23h18DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>education20191011_2019_11_13_23h18DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="education20191011_2019_11_13_23h18DataSet.xss">
+      <DependentUpon>education20191011_2019_11_13_23h18DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EntityDeploy Include="TLU_SAMS.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>TLU_SAMS.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="TLU_SAMS.edmx.diagram">
+      <DependentUpon>TLU_SAMS.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TLU_SAMS.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TLU_SAMS.edmx</DependentUpon>
+      <LastGenOutput>TLU_SAMS.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="TLU_SAMS.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TLU_SAMS.edmx</DependentUpon>
+      <LastGenOutput>TLU_SAMS.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

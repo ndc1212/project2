@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8f95df5d32c040ebb73d6907504cd41b" Name="Diagram1" ZoomLevel="93">
+        <EntityTypeShape EntityType="TLU_SAMSModel.CollectionStatu" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.oauth_access_token" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.oauth_client_details" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.student_admission_infomation" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.StudentDocument" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl__student_student_group" Width="1.5" PointX="30.75" PointY="186.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_academic_title" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_activity_log" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_administrative_unit" Width="1.5" PointX="1.5" PointY="244.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_behavior_mark_classification_standard" Width="1.5" PointX="20.25" PointY="163.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_behavior_mark_criteria" Width="1.5" PointX="36.75" PointY="169.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_budget_distribution" Width="1.5" PointX="17.25" PointY="180.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_building" Width="1.5" PointX="1.5" PointY="304.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_calendar_event" Width="1.5" PointX="0.75" PointY="214.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_calendar_event_attachment" Width="1.5" PointX="23.25" PointY="204.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_calendar_event_attendee" Width="1.5" PointX="3" PointY="185.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_calendar_event_car" Width="1.5" PointX="3" PointY="224.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_calendar_event_priority" Width="1.5" PointX="1.5" PointY="196.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_certificate" Width="1.5" PointX="28.5" PointY="177.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_civil_servant_category" Width="1.5" PointX="1.5" PointY="207.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_civil_servant_category_grade" Width="1.5" PointX="0.75" PointY="202.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_civil_servant_grade" Width="1.5" PointX="1.5" PointY="100" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_classification" Width="1.5" PointX="28.5" PointY="173.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_country" Width="1.5" PointX="1.5" PointY="249.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_course_hour" Width="1.5" PointX="12" PointY="174" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_course_subject" Width="1.5" PointX="6" PointY="183.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_course_subject_config" Width="1.5" PointX="11.25" PointY="185.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_course_subject_timetable" Width="1.5" PointX="14.25" PointY="185.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_course_year" Width="1.5" PointX="1.5" PointY="122.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_criteria_search_student" Width="1.5" PointX="37.5" PointY="162.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_criteria_search_student_except_subject" Width="1.5" PointX="39.75" PointY="136.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_decision" Width="1.5" PointX="31.5" PointY="164.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_degree_student" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_department" Width="1.5" PointX="0.75" PointY="176.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_discipline" Width="1.5" PointX="18" PointY="206.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_discount_tuition_fee" Width="1.5" PointX="45.75" PointY="170.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_discount_tuition_fee_item" Width="1.5" PointX="48" PointY="170.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_education_degree" Width="1.5" PointX="8.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_education_level" Width="1.5" PointX="1.5" PointY="116.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_education_program" Width="1.5" PointX="9.75" PointY="125.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_education_program_tuition_fee" Width="1.5" PointX="17.25" PointY="191.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_education_type" Width="1.5" PointX="1.5" PointY="130.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_education_voucher" Width="1.5" PointX="33.75" PointY="184.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_education_voucher_detail" Width="1.5" PointX="45" PointY="192.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_enrollment_class" Width="1.5" PointX="9" PointY="184.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_equivalent_subject" Width="1.5" PointX="14.25" PointY="121.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_ethnics" Width="1.5" PointX="1.5" PointY="265.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_exam" Width="1.5" PointX="8.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_exam_date" Width="1.5" PointX="12.75" PointY="146.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_exam_hour" Width="1.5" PointX="15" PointY="145.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_exam_register_period" Width="1.5" PointX="8.25" PointY="143.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_exam_room_period" Width="1.5" PointX="10.5" PointY="220.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_exam_skill" Width="1.5" PointX="1.5" PointY="104.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_exam_status" Width="1.5" PointX="17.25" PointY="158.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_exam_type" Width="1.5" PointX="8.25" PointY="149.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_expectation_register" Width="1.5" PointX="34.5" PointY="203.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_fee_config_item" Width="1.5" PointX="25.5" PointY="196.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_fee_item" Width="1.5" PointX="23.25" PointY="168.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_fee_item_detail" Width="1.5" PointX="51" PointY="178.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_file_description" Width="1.5" PointX="9" PointY="174.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_global_property" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_graduation_period" Width="1.5" PointX="37.5" PointY="204.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_group_subject_program" Width="1.5" PointX="9.75" PointY="132.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_inventory_item" Width="1.5" PointX="50.25" PointY="184.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_knowledge_block" Width="1.5" PointX="7.5" PointY="138.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_knowledge_program" Width="1.5" PointX="9.75" PointY="137.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_labour_agreement_type" Width="1.5" PointX="6.75" PointY="174.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_learning_skill" Width="1.5" PointX="1.5" PointY="135.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_location" Width="1.5" PointX="4.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_mark_type" Width="1.5" PointX="14.25" PointY="165.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_organization" Width="1.5" PointX="1.5" PointY="309.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_organization_user" Width="1.5" PointX="3.75" PointY="293.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_overtime_type" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_payroll_period" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_person" Width="1.5" PointX="1.5" PointY="254.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_person_address" Width="1.5" PointX="3.75" PointY="257.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_position" Width="1.5" PointX="4" PointY="170.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_position_staff" Width="1.5" PointX="3" PointY="179.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_position_title" Width="1.5" PointX="0.75" PointY="192" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_prerequisite_subject" Width="1.5" PointX="17.25" PointY="120.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_profession" Width="1.5" PointX="26.25" PointY="191.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_program_subject" Width="1.5" PointX="12" PointY="131.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_receive_pay_able" Width="1.5" PointX="36.75" PointY="184" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_receive_pay_able_detail" Width="1.5" PointX="53.25" PointY="184.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_reg_student_course_subject" Width="1.5" PointX="10.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_reg_student_subject" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_register_period_time_config" Width="1.5" PointX="20.25" PointY="181.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_religion" Width="1.5" PointX="1.5" PointY="269.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_reward" Width="1.5" PointX="40.5" PointY="167" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_reward_decree" Width="1.5" PointX="40.5" PointY="201.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_role" Width="1.5" PointX="1.5" PointY="288.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_room" Width="1.5" PointX="1.5" PointY="295.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_salary_config" Width="1.5" PointX="6.75" PointY="208.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_salary_config_item" Width="1.5" PointX="9" PointY="203.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_salary_increment_type" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_salary_item" Width="1.5" PointX="6.75" PointY="203" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_scholarship_condition" Width="1.5" PointX="20.25" PointY="191.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_scholarship_fund" Width="1.5" PointX="18" PointY="211.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_scholarship_fund_type" Width="1.5" PointX="15.75" PointY="211.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_school_fee_config" Width="1.5" PointX="23.25" PointY="218.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_semester" Width="1.5" PointX="1.5" PointY="149.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_semester_exam_period" Width="1.5" PointX="3.75" PointY="165.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_semester_register_period" Width="1.5" PointX="1.5" PointY="163.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_semester_subject" Width="1.5" PointX="3.75" PointY="127.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_semester_subject_exam" Width="1.5" PointX="10.5" PointY="144" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_semester_subject_exam_course_subject" Width="1.5" PointX="11.25" PointY="191.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_semester_subject_exam_date" Width="1.5" PointX="12.75" PointY="153.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_semester_subject_exam_hour" Width="1.5" PointX="15" PointY="153.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_semester_subject_exam_hour_room" Width="1.5" PointX="17.25" PointY="225.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_semester_subject_exam_room" Width="1.5" PointX="17.25" PointY="146.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_semester_subject_learning_skill" Width="1.5" PointX="6" PointY="131.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_shift_work" Width="1.5" PointX="3.75" PointY="175.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_shift_work_time_period" Width="1.5" PointX="6" PointY="162.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_shool_year" Width="1.5" PointX="1.5" PointY="143.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_social_class" Width="1.5" PointX="1.5" PointY="273.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_social_priority" Width="1.5" PointX="1.5" PointY="277.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_special_point" Width="1.5" PointX="17.25" PointY="167.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_speciality" Width="1.5" PointX="6.75" PointY="166.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_speciality_program" Width="1.5" PointX="18" PointY="141.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_specialty_admissions_map" Width="1.5" PointX="13" PointY="141.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_staff" Width="1.5" PointX="0.75" PointY="185.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_staff_allowance_history" Width="1.5" PointX="3" PointY="203.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_staff_civil_servant_grade" Width="1.5" PointX="3" PointY="191.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_staff_disciplinary_history" Width="1.5" PointX="3" PointY="211.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_staff_education_history" Width="1.5" PointX="3" PointY="215.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_staff_family_relationship" Width="1.5" PointX="3" PointY="219.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_staff_labour_agreement" Width="1.5" PointX="9" PointY="179" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_staff_labour_agreement_attachment" Width="1.5" PointX="11.25" PointY="179.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_staff_reward_history" Width="1.5" PointX="3" PointY="229.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_staff_salary_history" Width="1.5" PointX="3" PointY="232.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_staff_salary_property" Width="1.5" PointX="9" PointY="193.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_staff_travelling_history" Width="1.5" PointX="3" PointY="240.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_staff_work_schedule" Width="1.5" PointX="6" PointY="178.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_status" Width="1.5" PointX="6.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student" Width="1.5" PointX="28.5" PointY="181.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_behavior_criteria_mark" Width="1.5" PointX="39" PointY="171.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_call_roll" Width="1.5" PointX="25.75" PointY="186.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_candidate_profile" Width="1.5" PointX="23.25" PointY="173.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_certificate" Width="1.5" PointX="30.75" PointY="180.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_code_key" Width="1.5" PointX="17" PointY="136.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_course_subject" Width="1.5" PointX="14.25" PointY="178.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_course_subject_cancel_fee" Width="1.5" PointX="14.25" PointY="192.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_course_subject_edited" Width="1.5" PointX="30.75" PointY="191.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_course_subject_history" Width="1.5" PointX="17.25" PointY="186" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_decision" Width="1.5" PointX="33.75" PointY="178.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_decision_type" Width="1.5" PointX="29.25" PointY="165.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_discipline" Width="1.5" PointX="33.75" PointY="192.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_education_program" Width="1.5" PointX="36.75" PointY="179.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_exam_group" Width="1.5" PointX="10.5" PointY="153.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_expectation_register" Width="1.5" PointX="36.75" PointY="193" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_graduate" Width="1.5" PointX="39.75" PointY="186.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_graduate_conditional" Width="1.5" PointX="39.75" PointY="180.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_group" Width="1.5" PointX="28.5" PointY="195.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_mark" Width="1.5" PointX="16.5" PointY="172.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_not_complete_fee_semester" Width="1.5" PointX="39.75" PointY="191.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_object" Width="1.5" PointX="21" PointY="206.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_object_policy" Width="1.5" PointX="23.25" PointY="209.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_object_student" Width="1.5" PointX="30.75" PointY="176.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_object_student_semester" Width="1.5" PointX="30.75" PointY="196.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_other_fee" Width="1.5" PointX="12.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_private_document" Width="1.5" PointX="31.5" PointY="171" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_process_assessment_point" Width="1.5" PointX="39.75" PointY="176.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_register_change" Width="1.5" PointX="39.75" PointY="195.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_research" Width="1.5" PointX="33.75" PointY="198.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_reward" Width="1.5" PointX="42.75" PointY="183.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_reward_condition" Width="1.5" PointX="40.5" PointY="206.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_scholarship_history" Width="1.5" PointX="53.25" PointY="193.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_scholarship_stock" Width="1.5" PointX="42.75" PointY="176.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_scholarship_stock_detail" Width="1.5" PointX="45" PointY="176.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_school_year_summary_mark" Width="1.5" PointX="33" PointY="252.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_semester_behavior_mark" Width="1.5" PointX="36.75" PointY="174" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_semester_reward_scholarship" Width="1.5" PointX="48" PointY="191.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_semester_subject_exam" Width="1.5" PointX="19.5" PointY="176.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_semester_subject_exam_room" Width="1.5" PointX="19.5" PointY="169" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_semester_summary" Width="1.5" PointX="42.75" PointY="193.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_semester_summary_mark" Width="1.5" PointX="35.25" PointY="252.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_student_private_document" Width="1.5" PointX="33.75" PointY="174.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_study_alert_level" Width="1.5" PointX="36.75" PointY="198.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_subject_mark" Width="1.5" PointX="45.75" PointY="185" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_summary_mark" Width="1.5" PointX="30.75" PointY="324.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_tuition_fee_calculate" Width="1.5" PointX="48" PointY="177.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_student_tuition_fee_calculate_detail" Width="1.5" PointX="25.5" PointY="178.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_study_alert_condition" Width="1.5" PointX="11.25" PointY="196" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_study_alert_condition_certificate" Width="1.5" PointX="13.5" PointY="201.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_study_alert_condition_level" Width="1.5" PointX="16.5" PointY="201.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_study_alert_condition_student_object" Width="1.5" PointX="13.5" PointY="205.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_study_alert_level" Width="1.5" PointX="34.5" PointY="209.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_study_alert_running" Width="1.5" PointX="13.5" PointY="213.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_subject" Width="1.5" PointX="1.5" PointY="108.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_subject_education_level_type" Width="1.5" PointX="3.75" PointY="119.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_subject_exam" Width="1.5" PointX="14.25" PointY="131.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_subject_learning_skill" Width="1.5" PointX="6.75" PointY="122" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_test_bag" Width="1.5" PointX="17.25" PointY="218.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_testBag_create_time" Width="1.5" PointX="15" PointY="218.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_timesheet" Width="1.5" PointX="6" PointY="193.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_timesheet_detail" Width="1.5" PointX="8.25" PointY="198.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_timetable_detail" Width="1.5" PointX="19.5" PointY="186.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_training_base" Width="1.5" PointX="1.5" PointY="314.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_training_base_semester_subject" Width="1.5" PointX="6" PointY="222" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_training_base_semester_subject_exam" Width="1.5" PointX="12.75" PointY="230.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_user" Width="1.5" PointX="1.5" PointY="281.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_user_group" Width="1.5" PointX="3.75" PointY="286.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_user_trainning_base" Width="1.5" PointX="3.75" PointY="298.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_voucher_detail_recieve_pay_able_link" Width="1.5" PointX="50.25" PointY="193.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_voucher_recieve_pay_able" Width="1.5" PointX="48" PointY="186.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_working_status" Width="1.5" PointX="3.75" PointY="196.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.CollectionStatus1" Width="1.5" PointX="8.75" PointY="12.75" IsExpanded="true" />
+        <AssociationConnector Association="TLU_SAMSModel.FKm59q30ibmsyrnjfuiatnry3y9" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKpw12besa4b5hgny3j84sqtu10" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK157gveocd7ktgj5pih4wt9tp6" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKct3h1iqrro9bhv2l4hhk2lb59" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKeqgclxfhxhh6cy56w7t3ecn8c" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKg4nta5chg1i7r2876cdignf4o" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKrobq3n1k6ggvlfv6slp9hjmvj" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKtoo0l45x1vrurpl9ube63u1sf" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKblgvgluwal19528a68l6k18wc" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkjdphyi27pp8ghalvk47m3waa" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKlwn2w2rrwgmiqwiy9gt843tdd" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKtetwp18lmxufj334t2q2yy3lp" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKh5u6wfq9x7lw4vkjoeqbrihul" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKhqbuwh9c7wlheldy5tme2w96n" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKjb760k0gofc6xjsuim3r271xj" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK6dl5rnk42x1h5bxiftdy24j0i" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK8xru8aqq70u8a4xxaondwnpfr" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKeqrcn1r26sc5fotw250i8o9oj" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKgn7x5rgbpalf6fw7ftlemy01u" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKhtxsl4y4jqdsf5w5w44vb23sh" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKnc3rhsavoh3jix3dbacxws1tx" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK9av3gw7gecs4jdb2i7k0one2r" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK9igpirbbthnw3hj2fmxro4fcg" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKj8ishc1ma7m8byyow3g7su0dq" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK6cxg2xbfrgf97x4iltrk6r85n" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK83rjxef8b149kxk1bocgyadoa" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKaajxgx057rb62l3uj0wvf6c9y" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKaoqgy7aofipxopwunaau1q4ts" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKekvybqdbm8lhnpymh83sasusc" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKev8duixq7ugp0ucpri2n4obc7" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKgbtuw6r3qs28tlk4ptmckixmf" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKgut33958uuwar2agohdns6l1j" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKsg228a2639c3u7n1rgebfai2k" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKlykh9v79mr388p8q3b528m3w" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKcxaeooav0rsaj3d0s1jrb0c71" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKje80iscj3d2rjly35djqyffoi" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK1u6woqb1wdjrf4d4hihhny34n" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK1vqy8mhoyvi5ix8ks6vmjog2g" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkeae7p4uq2ox5i4fgbb06ln3e" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK122sjbnkmw18cgasuyrl76dbl" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKc8m8609587on6ir44ulbdlbw3" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKc67i3cq24twr58ayrqqjseehn" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKgb44vduwc96najnblxq4mjojl" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKmy5hbqrbhbu1s980csmc1tsoe" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK584ppc1oxofektgsvt9n5hu3p" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK5w8j73m33sl27e3qg1uo477r7" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK88ykjveu5juaxoth67l2xue40" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKh1t30ix2j3ntnhlx3jplctldg" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK26mx0025l3mc0i8cn5g52rlv9" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK2e4w3paiud2cgrin6hgd8ctks" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK3ki7pqpj77df1i4gecrxvcikj" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK4uk9wtblrcrchqbtp8hxnfn0x" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK9gg2bu3vnkaq5dxi3uojbfvuc" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKbd6h57qg40njyqdqby7uhflf1" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKcm7m9i038et55spu83xybutjr" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKgfq5njdtcp1u26tj0wkac6bgw" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKm9u063gilov9pux0w6wrs6log" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKp243hpar7mtxw8ulnahtl7sjy" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKpxblv1isx780xcho2v0geebem" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKq2b70p00t0oantkd77ee77h85" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKsymq47opssh6mqsvinmp4uou5" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKtb283ab6iv59if605rr57r1v2" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK3c7hpuigb240rb7w7a6w9rokh" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKjjqyb8fo1hdlu32idlqyun3ab" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkd1w0i70vux1bk2r9xpn0qmbr" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkx2ug22y7mk3ar16rp85s5fmh" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKlc6afw5cfpyh2w32xyk8nlkho" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK29ck883b30b4juanoembhppqs" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK3n6w5yuwebvwq6gvolm8eblug" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKjplqbkqe6smaikb2ttg976rq9" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKpyo76yh6vacm9mbckqkijlaii" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK2uby9pg6qlq4meb5ne9ma8h1h" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK3y5oo33ueixl9wft8f7kpurld" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK442pi30hp03g10o5qxq85dtvy" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK4y1egp34qbakimg1plv9a5kha" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK5vhfc5suy4b8wn3dd9yslbnse" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK6ujuds8hfke8wrykxlouobigb" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKaufx26rhdyx94umvwlr35k9qq" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKdkob9txsmjx5cmj57gj69g8tw" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKehgx18963er4ysn5umqtjhh9t" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKehr4c5xrv6xhtx9c01wsv4fin" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKfkt8b6kgl2iybp8rvx9u55q74" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKft0rli53mxq9o6702f9i5qi6l" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKmbr5lg613fa7j0u0krbdf61j5" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKp74yud8x0vcwcd81p17tfi1py" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKq4v29sogr65kkn1bmk2a32nso" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKqeghd0hksa6cow7hjvlccl81k" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK7k95dm98pxo8u53tvghan406v" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKdwi23161ll8m34w07syotlxen" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKm08pkjp042k0etkmvlnbdn7cr" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKo6d2w80mohdqx8484bp7da5au" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKcm9ceqijf78u54yyd7808e6e4" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK5nc1gbdt7j1a9xde2ujsk2ere" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKfn2lym5aj06th20dn6j4gvs5t" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKi5spntd2ayig9q1hxysrnr59i" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK229ad8v9yudwtnen0spfa7pbo" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK7gpuh0676dqkn95hkh5h43eoy" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK931vefm11d7plcsi13ypmg0j6" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKdcpb2l307vj94k95odsfxdfwq" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKi7gkqpc49fmr8t1gnipeeibsy" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKlktxh7buaccgja87s5ta2mala" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKpt7r64gn00c77d1j1jhtponth" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKqchdpplhd6uqve5puga0l16sl" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKr9nqpqhqcyrviqr31j05n8vk0" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK3mwg4by6vm2p3e6j13sral6m9" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKo06qo9iuojeoecsl8t5j8e2n" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKr91is97eocpcpr8wy9xgheyuv" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKck7p8agno70cces8fkljc8ag5" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKdse0h5kwwfalmmhtj4rsh51sq" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKg7vh1qqdk12xh82cburpnf7r4" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKm8o80ywnswmc8kojf0rca3c6w" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKldy4mi8sd61wt8xlsf6gp7jnk" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK4l35ogmyrvgltrjiy7h1qm7lr" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKd3515e3le1f1p8asynmpssu5v" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKge8104lj0o9lhd8fl0k00kauu" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKihs56kje66slydxnwfy1f0msu" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKteuqemr14782dsnebeetk4kik" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK3vcasrql5ptkyhvl3p8s95ylw" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK7yc7jntqou5mpo8n9lph5p6b4" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKah6ypwlj0o42u3i41i1wgf2pl" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKi90j53k0xyjrej0n4kdo0mybk" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkg6q8a40x4ttq6nhlsirvcuyk" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKm865ngwgnrrseblt1aw8741rg" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKnph49lqvs6wydlqh2mci5xhe7" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKq1h1goh8yeraynskn8s8509gl" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKran5en1nxy4lf3af2tt66ynl8" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKs8whfh08muwee7r1sn8jobrx7" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK26xxv6dmxmqupqfdxirbrydgt" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK8k4nn7uesn5val8jv1dt7trve" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKb2qadaenswg12sg3uiuhyjq9" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKbpsqr0fp1w8497p1pfceym839" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKcv7l8ka68cxuasl99rh7wcg6p" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKj19qlkhamyojb3s2txhpiqavc" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKksb4jkjo9j0x48uedynmhpmvl" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKqipm3njrjttyhxgbma02a0096" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKs0d2v05rcaqlsudlpv5ojxmon" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKcwjwi0t3yp6d85c63crtvrnxo" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKj7arfr7u2l6rnsxdwbjutnlqj" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKm8ig2i02st3texnx62ndysxv" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKopxqvoijqda6d7npbj5ki5yut" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKr7vgytq9hm3m1p6sr8pxall1p" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKs0wxwsxrsfq1bf71dcj8n1k3w" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKi9qo2akacaff8qnl2k05yoks9" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKmuhfgf008tnpiobr9ffcwkdf0" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKoc0t82rtgka1yoc67mam6gy6a" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKosgn54flo81oxwfboychp86jg" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKqp9v33gblsvsj6gfhiahl7lis" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKro93joyxnq4oxt1n81e8pubgb" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK379x1836ux3t34xnjelj4d3pk" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK37m5h45ow96sqpf8dhs1ismy2" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK6fympi2gu6uerhjvy764adjh0" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK700fni4g7ena9i8s5pyr0hkdy" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKdxbmttdtkp366qwslw5i81ml6" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKhe6ct734fyt4p4dppx69a84lx" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKksmegn7wkymx83u7f0ouxnd8b" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKtkpjbxuo3pt6nr3rylewv1siw" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK3kx9dlmrptc74no3suy6onu3v" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKe3pu60ogu7309ig103x1tgit3" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK8oskiw59dqk1yt56pp3sc8gt3" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKc025b82i9aesg7eslw3waqblq" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK1mf3yyt27wb3lea225ltleuyx" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK9r6gdx8beqejdsuc02anoscii" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKa1aj4eqmwtv5yba77k99gyfwq" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKfcjcwc1u6wjo65kio78d1wpde" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKjxu5l6eun253lx0rabic4vlor" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKoq8idrolh3s0nj4b0ypy2ib9w" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK16mhqt4juywkyab78946gecda" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK5omfq3albby27xii7y4t0cs03" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK8gsvxgdxglau889hs44y8bris" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKawqt74k0dcko8r002wsogd0dg" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKp2bfi1mmcblwubqrnt08t939j" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKriqaj1dntw5c0u0wi7m555pa7" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKky110bnee8r2fsea388x74kjr" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKl1r0mxqmyj6nupkscm95pb2lb" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK5qdql4699jqvmrupr7ca0osnp" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKqiaye1n4blvro7fse4uyi320w" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK3pmcbj9t6kop6w9xlarqyxe4p" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKi5fk6ohwea4uvoj6y94mh4hor" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKk6phu297qsss3lrjjm3eadmn1" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKmx372i03n9sbu8tgsm1nc8enu" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK1xb3oh7mko50hho3aeyq99bmg" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKaelti28maxdudyukrlx71byn4" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK22gbroon5gmspqdh1vwja98v1" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK2rsftylih6xicngxw7espyry" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK4l0ncw68gsor4s95j5d4eywhf" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKqoelbntyfs7rvv2fa87kdf6af" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKiay7lqiuhs8yeod45u9ex2bns" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkm6lt1w7ixlvghpylplrb4l1b" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKn8cqt4whosh9wj81cmrnkxaw" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKmt9wpw8jcifcclgbhr0frmews" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKjtyqv1ki6hgo30m5tla7fu837" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKs4a8hdnnaienhm5bwrgrylcd8" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK1g1pxxo137chmdwahrnj9qq98" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK27m9tvlsjnkuqsmr3kl6o8osj" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK3rxbalw63dico60qm7agqahco" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK46i8bswubjw18s2v78w1c3f1w" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK6pfoe0tqqst8nnuhrvhtw306q" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKafg0tnudu0a6xp07j38bdj1mc" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKj0id6idxmnc3q7hfvfhci083q" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKmmktj94v42imqby8onrxdrhho" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKqs9iiy9itxjqn87gpbnf3hx4i" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKj6mtdmp2drni2j4wsjefykol8" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK4d5y9j2l77456c0rgc9rxiw9p" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKdw1qxg717nhykbw8t8rj0x4yf" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKqqxdh2kqxnogq09sutpsiq6k4" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK64etqviruopg09lssois7uppe" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKbprhr2ssb2ftuqvax1hc6mn82" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKdqxww7hw9ep4vj3039lsr9c6k" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKrfao7e32gxvi6fk5mckg0flav" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKoqqrachjpec3kcfv25mepfme4" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK9jrl8v462j8ntb4gdt0t05yk2" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKri4t5f02y54qe6c33ciguigrj" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK2x2yv8v89mt216486sajk62x2" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKd89gdgrs2yyl4awb03246gr9h" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKdqdcn29bbpjdvkfjvssgcjyoe" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKhamn12usdwx91cm23qfv7psns" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKlaf7qanusfcaoghct8ardcy3i" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKme9cds1pl7vk22o80ioecueh" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKnpblx23he5tfl4hvkng2q0lsr" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK1fhtn4om43ajpjdlsavc8g7yf" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKcq867nsf671iejx079llbxblr" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKmrfb6rpwv5yb6lohio9c1qcs0" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKc3d10stnrms14sibh9bfb6k66" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKdeatkpg6f097tcdk0kh4qu52v" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKg163n1si35h71f92766l8d17b" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKn7iu9ymsf677u2lcr2q6ihfr9" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKam2q15r9hadl9mbys4888r9t0" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKh3holhr59p5n2jnfv6s4wgd6u" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK3qgw8umla7t2uxbyey5i8jko9" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK4opjxoso5p04xnu5kros3i91r" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK599kkuw9l9dohv4lrnl0g310" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKam2jfk77mjkfsqowpx4pd7x6s" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKanorq4y33w538123h34wdwlo" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKd7iv3v0c1i7aq08918q2b36fh" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKfd0s2ufy1wevoegvlrh8dcxqs" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKgeccarovypddnwf0aaopqopos" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkkqw1xt2k94r8p03mbhpvox1o" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkm02oojixf588v9wilm11080x" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKn9peny9r2coppmodyy3lfbyoh" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKbc7r7f01olbqjc89aqxne2vlv" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKbro65u6hrmytxhjgq24tsbbpn" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKckbhe5vej61c72b1ui3g9ysab" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKdov2wp84w2d7nhf7vy0qpgrkk" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKjgoes7a760jalmdmu3otbdbrr" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKmx8wo0xs6kuvmky8l20gscj1b" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKtajc1c1u18ikh2yqklbd60f62" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKtrp85mx6vtd6wk4nudee8w7r5" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKng08mn8erv0xv4eftlj4iwcok" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKadk32cfytp21wgbq8f2q4x0ce" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkwomej38acam2995eigleirhu" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK6hvchw0seifnnxsegdr082e9w" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKh6g3rdafb14kt60raaoyr4m98" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKljkhqg9y820yxunpmb1htkwts" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKom8b7cy3v377t7tic2n9h4nd1" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKnaiyrs9c2jjr7si1yoi7xrgw7" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKsfqnjj6ofqjge39wu9f52mw7k" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK4ba1qo4o9aabvspg70j0detue" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK60s31lxetyun7490xbda6b0ry" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKetrua5akjjmmeeot39p7wdcs4" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKfyjqtrrykamkiepsi0dikmi69" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKgi5yd70nwfyh1w3wml2u70eun" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKr7ka12tee6ni2rvdim9hs5p3l" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK1xuvwo3ger07h9rpg88i0qy7" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK8ofrj4a94cc4gv6lw9587mdi7" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKmxg262uguqua4sednxy7yn4us" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKmtve1dryjsaqg7bfpf20nwpuq" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKo23vdjvhf3m1psg5wbgqgxya9" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKqaqcbt06jnhidvdkusoewcps0" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK2uk4q8akrxi954j2yc2k2ibeb" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK62fv451pwg5qvwatjei5p09f5" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK6bfaa93g9i93omsa319l9hhxl" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK7fdnm1imxu7cnv3r2q44b28hk" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK86e9w8mw8mkgmmumuasi8n48q" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK98avvjoe0ct6qa40om0y6rnnw" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK9bu0151ty0knvmc2bei2n898v" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKeqil9ecerij377brd7ixgle6q" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKfy039rprb4raoevhofg6r2xjk" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKgsfuxwv3kg0t0av8qa06ab9yn" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKgwbn22kiebna1ayk1xxadpc8p" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKh0lt10np19s4ebfox9io95m81" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKhh1sacnukxte81kj7c0117slv" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkn0x4vcjvt2dffmuqv97j3w2k" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkppsv4kg4y3ee8eh7ev7vsbui" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKlyuht65qox0h0uhnh6lf256qu" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKmrrdyoybwgem0l4pn42givlx3" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKncfswbqufu57j705cte2pa5g7" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKnu9pcu6sgsy0pw6t65psvl5cl" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKorjdvuv447uv584yte3f86y4q" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKph0el4b9571fg9omik3rhd87q" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKr0eu8gx21oum42siwx4ytld48" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKrbesnhf031uf5gqd88wv2mv63" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKrgncpk4bskrhmp7ls4phsjd6y" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKrrvjc3vro62tpvasu7vj586ms" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKry9sk0bn2m8th8abquhxsjjck" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKsta6mymxb34u5yopq8kvmf0xo" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKt5fakk07dfr230nb7p1uelj5a" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKg7lm0wv7imug6t19gdeyets4l" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKtl5kgaa4s1qkq78374qfm956y" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKdqw29g0s57cquxcnyf6cunosv" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKh5vrk0jfxd2di3hlvljnoanme" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkqvf7epcvbu6k7y9rdywk7okv" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKnfrcmdgqk3fdoolf5g3rlwtae" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKtakurij40ku16l7fd97guk3d8" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK3sd41jpbocjped0aa6a6ax2cn" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK5pt21mev9e27scs03eexwov3n" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKbt0m0wwkwem8gjj09e0dx2ft8" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKfl6l6rns9ajm2ha7tt11idoq0" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKgoa2hoir1tcrjgivtjj80m6xw" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKhogslchccwwsl07hdiyjj1tih" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK5vnsprct60tt675lmewvsrxmo" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKd02ikyuasnakw0hrfqmyc2ov8" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKey9620kyqcs53usholksjr6bn" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKgry5q692fnih0jy8ib5nc7xgs" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKosa72pyx062phplg2a2y1nqwo" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKpq5tvh27hph7fok0o7r18pq1f" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKqmadq8sp01gwcfveeahn5tr1t" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKtmnps1bcm7lfihoo0thlupsv1" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKjjhjsye1j3yesfttoory0hxlp" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK7hxbp1xyhbembyrvc0f8aflf" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkvhsw4my2da0xjei4sogdt7ue" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK8kss9grh1pyf00jtauem7e9vj" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKe531y6ouo5xviwvllggwwfebt" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKnjmo3lqa03880m57k3ncpa78q" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKqixl0kwxfv8all17pxlib2x2g" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKrpgos01aa5xl023llmcr2qhqk" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKpwl9letii194tp3kefg8vujhg" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKqmy026uff1uft9gg8yke5eohm" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKso5n1927wkfnqeux7eg8ldfof" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKuvap46ga1qrq2j92eufmbb33" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK449h57fw1ppl63stewfjow1md" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKj5qshn7x0tw95v79yhgibso6i" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK23npmc6sfarlf283ygln4owat" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK2k05t9tpqrd89bi1hh3rmjwyr" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKig39bki6d0xiucvw2dlr1xdvp" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKo9cac8b939j0sg8krdlyackbj" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKolp0t464fjx539y2080ft8s9q" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK1271y7sbsyw4r5ih495ou5d58" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK5p2h7uoydxabhqnw6td21n8m1" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK5tkgc34cij4mpl6kdlwjs1ac" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK8eqj8rbjb1sm4cjhage17gigb" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK8ks1qw5gsqx0rush9rkuudtyl" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK8va1b0i9dtucrkd7dy679u4rk" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKbkvhns8nmku8n8xx91dfcae99" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKbxbp7t4rci02qshlji8omgran" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKi6qjptvlkg3muwfsgyme50ygu" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKm6v0b95sbn3qseg97d0jiabjv" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKmg8einea9d73837ondpirkbub" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKoh12p1n88f19yiwcpahn206v1" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK91tou3gbkhturrf0xsjxjkwft" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK2ph32wuj8f40cvnn66g05x7t" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK3f8damwhaxnu5yt8h9fuxfrws" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK3y522m447esvw6oxhivpamtmh" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK4dcc6jv4s5qn790jj9xulyjli" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK5nw22o6sva63ib1r1nvsi3y27" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK5rm1xsyahg7tt215h7ocvaoks" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK69e81qc8o0cqca0f3orqv7cfh" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK6ggh4ghteijlsqjqqojnugcmh" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK7eaitiesxder0o8sftpx36sg8" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK7nldpcey6rhfaenhxl25qkh2x" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK8wndiybmevkvwprtkdq7nambv" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK9j52312cqtk0mjhjtyy30bakk" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKb33kv8bih9cdaw510yv8qax58" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKchp5qnlsa425x55x97i8fs4i8" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKexrprytpkd1j7i8xm4895vvbt" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKfdep78lax2jso484vqvmntk4c" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKfwovy1no8yin39n1ju0l85idy" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKfwtwuuqj3uagmedroaq7twe0a" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKg6p55030d6var3mxo55irn5nm" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKglisg2hyk6s6wfg52pj5c2eqe" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKi7cd6q7fxuse2gjvqpvj5f0tf" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKig596bn3tskabwjjcpupknr6w" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKihkcxkn8s481x8apsm6nfmeku" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKiqj4ejbw53idjjntln5mb3qys" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkek08wabdpsplj8elmikowonq" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkf5fll7942py66dmg7ijsx9w" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKm0i5samewi1ysritui0a4k9ew" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKm1jgb274ep1okgrffd1d8kvbm" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKo4rfe597h9vfmllwakb11ks4r" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKoyk0w0a91a3001p9opb6c6tnd" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKq6q4gqvkjwg1kof1fmuprk3qr" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKr39iuagnw9279qbk5du2medmk" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKrp0c9o9yhux9q30t1kflxhqe6" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKru59i7r6vpgl3dc3k74a6kkho" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKry29w63djip5lo7lkq4edc7vs" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK93bhyj9ddu1w07forkld7kdwe" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK8p337duqblan1up4j23eltjtq" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKh37xxt6k4yxe1pdmyttppscrb" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKpsa9pyorlm94mncje6e4cjs4e" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKhpf9tiqgeg5p2uywvx9ki7fjo" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKitgnxejxgm6ln1dbwye42j4d7" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkgc4xnjffb4vlqht5yrgk5sid" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKrfro5od63jb0gq1vg1xko5bha" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK7sglplsrf02ajyb8bcnq5qxg1" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKrq85wc28yisabsf6jokyjrlce" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK4xcvcfxnam2f7dcovvqfcy9as" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKalmacnrwwdcox6u1hp34xdbe0" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKnsudhwr7pmqxx64pnwkvnilw8" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKo2ik01eale71w6r9pwp1lmp3x" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK8jb1rxknjbgcitulc2vu3f1d6" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKgn5ut98y97rqbpntwhjon1slj" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKjot48485he9dsh4x8hduj38y9" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKq5p8m7860wctiwfug1ipvvnaq" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK49m9aa59tbeoa1o47tdvpy377" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKi3wog33kb1fl27bjv8m7peidm" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKr2th3ryht6fdsgtlbl0hjr3pe" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKb8dqwca7cd23o10iwsy1ms88c" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKgr4gvb5nc728kkcir5sir3ro1" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK1pj0iaxo91b0f3hh44d1du8jp" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkf33q51nf96b5ny8p2f16emg" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKq1py626qvv3cnyq3qi79adpnu" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK78yqqymhntkjnfc3o4a8x30tq" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK26kopkulcvprbfaexjeu7mic2" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK7sfedehf4xbfhlywhtjjoe28r" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKoau8bsafr7m8rnggcwmulqwuw" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKs9wvinajytr2c7bo22fq4ofr7" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKk076hejn4jsd1tdog2qinqb6o" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKki81kdh8t3fkdbhprxf6fu3v8" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkrb840i7btgdlk0exnmtrl26q" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKkw3wp73is9d3uj53ui7us59ul" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKmar3cpnc3p87kyer3xmwrjoa4" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK8ity06xn0auxii6x1d57pkn2v" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKjbiue8yc0g3p35st842kyp9bg" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKknoi49ewwnreshr6mfnpob5be" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKmtb0oepykuqrpsf1s6t8pp4mq" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKijw7wioml6bfv6san657vll2r" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK91a9elnkolkysh05cmw0kdyk0" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKeryw3dwjr89q3s0m1dlbkwy7g" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKh94cw6ren2c1arrqrhl3u4mwx" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK5tt46en6nwbqy9icn7h57d055" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FK95lxeuf149ya6x06u46uc8h4g" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKq42flnbgjcwrrw8vx5tdci6rd" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.FKjkkdf7cuva3s5l91x2h16iy70" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.tbl_course_subject_tbl_course_subject_timetable" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.tbl_user_role" ManuallyRouted="false" />
+        <AssociationConnector Association="TLU_SAMSModel.tbl_user_usergroup" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TLU_SAMSModel.tbl_1config" Width="1.5" PointX="0.75" PointY="13.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
